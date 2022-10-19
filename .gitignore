@@ -1,0 +1,10 @@
+venv/
+*.bat
+*.dat
+*.dir
+*.bak
+__pycache__/
+dist/
+build/
+*.vscode/
+*.spec
