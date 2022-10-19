@@ -13,7 +13,7 @@ class Mcb():
         '''初始化'''
         # 创建或打开 mcb 文件
         # 调试时关闭
-        # os.chdir('C:\\mcb')
+        os.chdir('C:\\mcb')
         self.mcbSelf = shelve.open('mcb')
         self.keywords = [
             'help', 'list', 'clear', 'save', 'del', 'delete', 'show', 'edit',
